@@ -1,0 +1,39 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "bookname": "Vinay",
+      "authorname": "BCA",
+      "publishyear": "30000",
+      "price": "7890654367"
+    },
+    {
+      "id": "2",
+      "bookname": "Mohan",
+      "authorname": "BCA",
+      "publishyear": "30000",
+      "price": "9685174247"
+    },
+    {
+      "id": "3c34",
+      "bookname": "Varun",
+      "authorname": "MCA",
+      "publishyear": "32000",
+      "price": "5678905437"
+    },
+    {
+      "id": "afd0",
+      "bookname": "aman",
+      "authorname": "btech",
+      "publishyear": "50000",
+      "price": "567890340"
+    },
+    {
+      "id": "74f6",
+      "bookname": "Ankur",
+      "authorname": "mern",
+      "publishyear": "45000",
+      "price": "4567890123"
+    }
+  ]
+}

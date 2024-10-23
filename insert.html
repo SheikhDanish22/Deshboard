@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"
+          content="IE=edge">
+    <meta name="viewport" 
+          content="width=device-width, 
+                   initial-scale=1.0">
+    <title>PG</title><style>
+        #box-insert{
+            border: 0px solid brown;
+            width: 450px;
+            height: 250px;
+            padding-left: 20px;
+            padding-top: 10px;
+            background-color: whitesmoke;
+            margin-left: 200px;
+            margin-top: 50px;
+        }
+        #bname{
+            padding-left: 30px;
+            margin-top: 10px;
+
+        }
+        #authorname{
+            padding-left: 30px;
+            margin-left: 5px;
+        }
+        #pyear{
+            padding-left: 30px;
+            margin-left: 15px;
+        }
+        #bprice{
+            padding-left: 30px;
+            margin-left: 35px;
+        }
+        #btnsave{
+            margin-left: 10px;
+            padding: 5px;
+            margin-top: 10px;
+            border-radius: 5%;
+        }
+    </style>
+    
+    <link rel="stylesheet" 
+          href="style.css">
+    <link rel="stylesheet" 
+          href="responsive.css">
+</head>
+
+<body>
+  
+    <!-- for header part -->
+    <header>
+
+        <div class="logosec">
+            <div class="logo">PG Collage</div>
+            <img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20221210182541/Untitled-design-(30).png"
+                class="icn menuicn" 
+                id="menuicn" 
+                alt="menu-icon">
+        </div>
+
+        <div class="searchbar">
+            <input type="text" 
+                   placeholder="Search">
+            <div class="searchbtn">
+              <img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20221210180758/Untitled-design-(28).png"
+                    class="icn srchicn" 
+                    alt="search-icon">
+              </div>
+        </div>
+
+        <div class="message">
+            <div class="circle"></div>
+            <img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20221210183322/8.png" 
+                 class="icn" 
+                 alt="">
+            <div class="dp">
+              <img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20221210180014/profile-removebg-preview.png"
+                    class="dpicn" 
+                    alt="dp">
+              </div>
+        </div>
+
+    </header>
+
+    <div class="main-container">
+        <div class="navcontainer">
+            <nav class="nav">
+                <div class="nav-upper-options">
+                    <div class="nav-option option1">
+                        <img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20221210182148/Untitled-design-(29).png"
+                            class="nav-img" 
+                            alt="dashboard">
+                        <h3> Dashboard</h3>
+
+                    </div>
+                    <div class="nav-option option3">
+                        <h3> <a href="insert.html"> Student Info</a> </h3>
+                    </div>
+
+                    <div class="nav-option option4">
+                       
+                        <h3>
+                            <a href="display.html">Display Data</a></h3>
+                    </div>
+
+                    <div class="nav-option option5">
+                       
+                        <h3>
+                            
+                            <a href="searchbyname.html">Search by Name</a> </h3>
+                    </div>
+
+                    <div class="nav-option option6">
+                        <h3> 
+                            <a href="searchbyauthor.html">Search by Course</a>
+
+                        </h3>
+                    </div>
+
+                    <div class="nav-option logout">
+                        <h3>
+                            <a href="editbook.html"> Edit  Data</a>
+                           </h3>
+                    </div>
+                    <div class="nav-option logout">
+                        <h3>
+                            <a href="deletebook.html"> Delete Data  </a> 
+                            </h3>
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+        <div class="main">
+
+            <div class="searchbar2">
+                <input type="text" 
+                       name="" 
+                       id="" 
+                       placeholder="Search">
+                <div class="searchbtn">
+                  <img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20221210180758/Untitled-design-(28).png"
+                        class="icn srchicn" 
+                        alt="search-button">
+                  </div>
+            </div>
+
+            <div id="box-insert">
+                
+          <h1 id="h"> Insert Student Details</h1>
+
+          Enter Student Name : <input type="text" id="bname" >
+          <br>
+          Enter Course Name : <input type="text" id="authorname" >
+          <br>
+          Enter  Student Fees :<input type="text" id="pyear" >
+          <br>
+          Enter Mobile No.: <input type="text" id="bprice" >
+          <br>
+            <button id="btnsave">Save!!!</button>
+          </div>
+        </div>
+    </div>
+
+
+    <script src="js/book.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
